@@ -1,0 +1,21 @@
+.breadcrumbs__list {
+  display: flex;
+}
+.breadcrumbs__link {
+  color: #000;
+  opacity: .8;
+  font-style: italic;
+  margin-right: 3px;
+  text-decoration: none;
+}
+.breadcrumbs__link:before {
+  content: '/';
+
+}
+.breadcrumbs__link--active {
+  color: #4b73b5;
+  text-decoration: underline;
+}
+.breadcrumbs__link--active:before {
+  content:'';
+}

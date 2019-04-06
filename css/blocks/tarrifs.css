@@ -1,0 +1,84 @@
+.tarrifs {
+  margin-bottom: 61px;
+}
+
+.tarrifs__main-title {
+  margin-bottom: 27px;
+}
+
+.tarrifs__item {
+  display: inline-block;
+  width: 250px;
+  padding: 41px 25px;
+  margin-right: 25px;
+  text-align: center;
+  font-weight: 300;
+}
+.tarrifs__item:last-child {
+  margin-right: 0;
+}
+
+.tarrifs__icon {
+  position: relative;
+  width: 68px;
+  height: 68px;
+  background-color: #4b73b5;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.tarrifs__icon:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: center center no-repeat;
+}
+
+.tarrifs__icon--flower:before  {
+  background-image: url(../../images/flower.png);
+}
+.tarrifs__icon--star:before  {
+  background-image: url(../../images/star.png);
+}
+.tarrifs__icon--palette:before  {
+  background-image: url(../../images/palette.png);
+}
+
+.tarrifs__title {
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+}
+
+.tarrifs__text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.tarrifs__list {
+  text-align: left;
+  margin-bottom: 35px;
+}
+
+.tarrifs__list-item {
+  margin-bottom: 10px;
+}
+.tarrifs__list-item:last-child {
+  margin-bottom: 0;
+}
+.tarrifs__list-item::before {
+  content: "•";
+  margin-right: 20px;
+}
+
+.tarrifs__price {
+  font-size: 22px;
+  font-weight: normal;
+}
+.tarrifs__price-number {
+  font-size: 54px;
+}

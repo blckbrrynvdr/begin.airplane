@@ -1,0 +1,26 @@
+.promo {
+  background: url(../../images/promo.jpg) center center no-repeat #4bb56b;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.promo__container {
+  display: flex;
+  justify-content: center;
+}
+
+.promo__content {
+  padding: 45px 0;
+  width: 60%;
+  line-height: 1.67;
+}
+
+.promo__link {
+  font-weight: bold;
+  color: inherit;
+  text-decoration: underline;
+}
+.promo__link--phone {
+  text-decoration: none;
+}

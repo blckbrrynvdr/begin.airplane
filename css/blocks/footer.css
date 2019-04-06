@@ -1,0 +1,23 @@
+.footer {
+  background-color: #4b73b5;
+  color: #fff;
+}
+.footer__container {
+  position: relative;
+  height: 77px;
+}
+
+.footer__desc {
+  left: 0;
+  top: 14px;
+}
+
+.footer__desc-link {
+  color: inherit;
+}
+
+.logo--footer {
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}

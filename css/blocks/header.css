@@ -1,0 +1,10 @@
+.header {
+  background-color: #4b73b5;
+  color: #fff;
+  margin-bottom: 46px;
+}
+
+.header__container {
+  position: relative;
+  height: 77px;
+}

@@ -1,0 +1,10 @@
+.banner {
+  position: relative;
+  margin-bottom: 54px;
+}
+.banner__plane {
+  position: absolute;
+  width: 619px;
+  top: -33px;
+  right: -106px;
+}
