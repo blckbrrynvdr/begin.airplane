@@ -18,6 +18,11 @@
   align-items: center;
   filter: grayscale(1);
   margin-bottom: 64px;
+  transition: filter .3s ease-out;
+}
+
+.partners__item:hover {
+  filter: grayscale(0);
 }
 
 .partners__item:hover {

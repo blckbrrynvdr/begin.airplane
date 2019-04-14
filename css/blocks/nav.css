@@ -4,12 +4,14 @@
 
 .nav__link {
   text-transform: uppercase;
+  position: relative;
   text-decoration: none;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 2.4px;
   color: #4b73b5;
   display: inline-block;
+  transition: all .7s ease-out;
 }
 
 .nav__item:hover .nav__link{
@@ -24,9 +26,20 @@
   vertical-align: bottom;
   margin-right: 16px;
   background: center center no-repeat;
+  transition: all .7s ease-out;
 }
+/* .nav__link:after {
+  content: '';
+  width: 23px;
+  height: 18px;
+  margin-right: 16px;
+  background: center center no-repeat;
+  position: absolute;
+  left: 0;
+} */
 
 .nav__link--main:before {
+
   background-image: url(/images/main_icon.png);
 }
 .nav__link--feed:before {
@@ -35,6 +48,19 @@
 .nav__link--about:before {
   background-image: url(/images/team_icon.png);
 }
+
+
+/* .nav__link--main:after {
+  background-image: url(/images/main_icon.png);
+}
+.nav__link--feed:after {
+  background-image: url(/images/feed_icon.png);
+}
+.nav__link--about:after {
+  background-image: url(/images/team_icon.png);
+} */
+
+
 
 .nav__item:hover .nav__link--main:before {
   background-image: url(/images/main_icon_hover.png);
@@ -45,4 +71,8 @@
 .nav__item:hover .nav__link--about:before {
   background-image: url(/images/team_icon_hover.png);
 }
+
+
+
+
 

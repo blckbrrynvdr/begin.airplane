@@ -1,5 +1,9 @@
+.maincontent__container {
+  display: flex;
+  justify-content: space-between;
+}
 .maincontent {
-  display: inline-block;
-  vertical-align: top;
-  width: 899px;
+  
+  width: 83%;
+  
 }

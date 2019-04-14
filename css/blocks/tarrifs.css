@@ -3,19 +3,29 @@
 }
 
 .tarrifs__main-title {
-  margin-bottom: 27px;
+  margin-bottom: 19px;
+}
+
+.tarrifs__items {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.tarrifs__items .tarrifs__item {
+  max-width: 250px;
 }
 
 .tarrifs__item {
-  display: inline-block;
-  width: 250px;
-  padding: 41px 25px;
-  margin-right: 25px;
+  padding: 41px 25px 12px;
+  border:1px solid transparent;
+  border-radius: 5px;
   text-align: center;
   font-weight: 300;
+  transition: border .3s ease-out;
 }
-.tarrifs__item:last-child {
-  margin-right: 0;
+.tarrifs__item:hover {
+  border:1px solid #e8e9ed;
 }
 
 .tarrifs__icon {
@@ -51,21 +61,22 @@
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
-  margin-bottom: 26px;
+  margin-bottom: 19px;
+  letter-spacing: 2.6px;
 }
 
 .tarrifs__text {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .tarrifs__list {
   text-align: left;
-  margin-bottom: 35px;
+  margin-bottom: 18px;
 }
 
 .tarrifs__list-item {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 .tarrifs__list-item:last-child {
   margin-bottom: 0;

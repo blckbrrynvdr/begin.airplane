@@ -3,13 +3,19 @@
 }
 
 .content__main-title {
-  margin-bottom: 72px;
+  margin-bottom: 59px;
+}
+
+.content__items {
+  display: flex;
+  flex-direction: column;
 }
 
 .content__item {
   margin-bottom: 31px;
   padding-bottom: 25px;
   border-bottom: 2px solid #f5f5f5;
+  display: flex;
 }
 .content__item:last-child {
   border-bottom: 0;
@@ -17,17 +23,16 @@
 }
 
 .content__pic {
-  width: 160px;
-  height: 160px;
+  width: 19%;
   border-radius: 50%;
   overflow: hidden;
-  display: inline-block;
   margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .content__desc {
-  display: inline-block;
-  max-width: 652px;
-  vertical-align: top;
+  width: 81%;
 }
 
 .content__date {
