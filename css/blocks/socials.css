@@ -1,9 +1,12 @@
 .socials {
- 
+  
+}
+
+.socials__list {
+  display: flex;
 }
 
 .socials__item {
-  display: inline-block;
   margin-right: 10px;
 }
 
@@ -12,7 +15,9 @@
   width: 20px;
   height: 20px;
   background-color: #d2def3;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
 }
 
@@ -20,22 +25,33 @@
   content: '';
   width: 20px;
   height: 20px;
-  position: absolute;
-  background: center center no-repeat;
+  background-image: url(../../images/sprite.png);
+  background-repeat: no-repeat;
+  display: block;
 }
 
 .social__link--vk:before {
-  background-image: url(../../images/vk.png);
+  width: 12px;
+  height: 7px;
+  background-position: -89px -5px;
 }
 .social__link--fb:before {
-  background-image: url(../../images/fb.png);
+  width: 6px;
+  height: 13px;
+  background-position: -5px -5px;
 }
 .social__link--google:before {
-  background-image: url(../../images/google.png);
+  width: 15px;
+  height: 9px;
+  background-position: -21px -5px;
 }
 .social__link--twitter:before {
-  background-image: url(../../images/twitter.png);
+  width: 11px;
+  height: 9px;
+  background-position: -68px -5px;
 }
 .social__link--email:before {
-  background-image: url(../../images/mail.png);
+  width: 12px;
+  height: 9px;
+  background-position: -46px -5px;
 }

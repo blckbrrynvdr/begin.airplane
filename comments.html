@@ -27,6 +27,17 @@
     <div class="container maincontent__container">
       
       <aside class="sidebar">
+        
+        <section class="promo">
+          <div class="promo__container">
+            <div class="promo__content">
+              Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого можно оставить <a href="#" class="promo__link">заявку на сайте</a> или же позвонить по номеру круглосуточной поддержки <a href="#" class="promo__link promo__link--phone">8 (800) 00-392-10</a>.
+            </div>
+          </div>
+        </section>
+      </aside>
+      
+      <div class="maincontent">
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
@@ -40,24 +51,7 @@
             </li>
           </ul>
         </nav>
-      </aside>
-      
-      <div class="maincontent">
         
-        <nav class="breadcrumbs">
-          <ul class="breadcrumbs__list">
-            <li class="breadcrumbs__item">
-              <a href="index.html" class="breadcrumbs__link breadcrumbs__link--active">
-                Главная
-              </a>
-            </li>
-            <li class="breadcrumbs__item">
-              <a href="index.html" class="breadcrumbs__link">
-                Отзывы
-              </a>
-            </li>
-          </ul>
-        </nav>
         
         <div class="content">
           <div class="content__main-title">
@@ -141,68 +135,58 @@
             </div>
             
             
-          </div>		
-        </div>
-        
-        <section class="promo">
-          <div class="container promo__container">
-            <div class="promo__content">
-              Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого можно оставить <a href="#" class="promo__link">заявку на сайте</a> или же позвонить по номеру круглосуточной поддержки <a href="#" class="promo__link promo__link--phone">8 (800) 00-392-10</a>.
-            </div>
-          </div>
-        </section>
-        
-        
-        <section class="feedback container">
-          <form class="feedback__form">
-            <h1 class="main-title">Оставить отзыв</h1>
-            <div class="feedback__row">
-              <label class="feedback__text-input">
-                <div class="feedback__title">
-                  Ваше имя
-                </div>
-                <input class="feedback__input" type="text" name="name" placeholder="Андрей">
-              </label>
-              <label class="feedback__text-input">
-                <div class="feedback__title">
-                  Ссылка на профиль VK
-                </div>
-                <input class="feedback__input" type="text" name="name" placeholder="vk.com/example">
-              </label>
-            </div>
-            <div class="feedback__row">
-              <label class="feedback__message">
-                <div class="feedback__title">Текст отзыва</div>
-                <textarea class="feedback__textarea" placeholder="Мне понравилось"></textarea>
-              </label>
-            </div>
-            <div class="feedback__row">
-              <div class="feedback__left">
-                <div class="feedback__title">
-                  Отображать фото в отзыве?
-                </div>
-                <div class="feedback__radio-buttons">
-                  <label class="feedback__radio">
-                    <input type="radio" name="radio" class="feedback__radio-button">
-                    <div class="feedback__radio-fake"></div>
-                    <div class="feedback__title feedback__title--margin">Да</div>
+            <section class="feedback container">
+              <form class="feedback__form">
+                <h1 class="main-title">Оставить отзыв</h1>
+                <div class="feedback__row">
+                  <label class="feedback__text-input">
+                    <div class="feedback__title">
+                      Ваше имя
+                    </div>
+                    <input class="feedback__input" type="text" name="name" placeholder="Андрей">
                   </label>
-                  <label class="feedback__radio">
-                    <input type="radio" name="radio" class="feedback__radio-button">
-                    <div class="feedback__radio-fake"></div>
-                    <div class="feedback__title feedback__title--margin">Нет</div>
+                  <label class="feedback__text-input">
+                    <div class="feedback__title">
+                      Ссылка на профиль VK
+                    </div>
+                    <input class="feedback__input" type="text" name="name" placeholder="vk.com/example">
                   </label>
                 </div>
-              </div>
-              <div class="feedback__right">
-                <input type="submit" class="feedback__submit" value="ОТПРАВИТЬ">
-              </div>
-            </div>
-            
-          </form>
+                <div class="feedback__row">
+                  <label class="feedback__message">
+                    <div class="feedback__title">Текст отзыва</div>
+                    <textarea class="feedback__textarea" placeholder="Мне понравилось"></textarea>
+                  </label>
+                </div>
+                <div class="feedback__row">
+                  <div class="feedback__left">
+                    <div class="feedback__title">
+                      Отображать фото в отзыве?
+                    </div>
+                    <div class="feedback__radio-buttons">
+                      <label class="feedback__radio">
+                        <input type="radio" name="radio" class="feedback__radio-button">
+                        <div class="feedback__radio-fake"></div>
+                        <div class="feedback__title feedback__title--margin">Да</div>
+                      </label>
+                      <label class="feedback__radio">
+                        <input type="radio" name="radio" class="feedback__radio-button">
+                        <div class="feedback__radio-fake"></div>
+                        <div class="feedback__title feedback__title--margin">Нет</div>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="feedback__right">
+                    <input type="submit" class="feedback__submit" value="ОТПРАВИТЬ">
+                  </div>
+                </div>
+                
+              </form>
+              
+            </section>
+          </div>	
           
-        </section>
-        
+        </div>
         
         
         
@@ -214,38 +198,18 @@
               </div>
             </div>
             
-            <div class="footer__col footer__col--center"><div class="logo logo--footer">
+            <div class="footer__col footer__col--right"><div class="logo logo--footer">
               <a href="/" class="logo__link">
                 <img src="./images/logo.png" alt="" class="logo__pic">
               </a>
             </div>
           </div>
           
-          <div class="footer__col footer__col--right"><div class="socials">
-            <div class="socials__title">Наши социальные сети</div>
-            <ul class="socials__list">
-              <li class="socials__item">
-                <a href="#" class="social__link social__link--vk"></a>
-              </li>
-              <li class="socials__item">
-                <a href="#" class="social__link social__link--fb"></a>
-              </li>
-              <li class="socials__item">
-                <a href="#" class="social__link social__link--google"></a>
-              </li>
-              <li class="socials__item">
-                <a href="#" class="social__link social__link--twitter"></a>
-              </li>
-              <li class="socials__item">
-                <a href="#" class="social__link social__link--email"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        
+          
+          
+        </footer>
       </div>
-    </footer>
-    
-  </div>
-</body>
-</html>
+      
+    </div>
+  </body>
+  </html>

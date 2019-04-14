@@ -1,3 +1,11 @@
+.nav {
+  margin-bottom: 15px;
+}
+.nav__list {
+  display: flex;
+  width: 52%;
+  justify-content: space-between;
+}
 .nav__item {
   margin-bottom: 30px;
 }
@@ -39,7 +47,7 @@
 } */
 
 .nav__link--main:before {
-
+  
   background-image: url(/images/main_icon.png);
 }
 .nav__link--feed:before {
