@@ -17,10 +17,20 @@
             <img src="./images/logo.png" alt="" class="logo__pic">
           </a>
         </div>
-        <address class="contacts">
-          <a href="#" class="contacts__phone">8 (800) 00-392-10</a>
-          <div class="contacts__worktime">График работы</div>
-        </address>
+				<address class="contacts">
+					<a href="#" class="contacts__phone">8 (800) 00-392-10</a>
+					
+					<div class="contacts__worktime">
+						<a class="contacts__worktime-text">График работы</a>
+						
+						<ul class="worktime__popup">
+							<li class="worktime__item">пн-вс: 09:00-20:00</li>
+							<li class="worktime__item">пн-вс: 09:00-20:00</li>
+						</ul>
+						
+					</div>
+					
+				</address>
       </div>
     </header>
     
@@ -35,13 +45,33 @@
             </div>
           </div>
         </section>
+        <div class="socials">
+					<div class="socials__title">Наши социальные сети</div>
+					<ul class="socials__list">
+						<li class="socials__item">
+							<a href="#" class="social__link social__link--vk"></a>
+						</li>
+						<li class="socials__item">
+							<a href="#" class="social__link social__link--fb"></a>
+						</li>
+						<li class="socials__item">
+							<a href="#" class="social__link social__link--google"></a>
+						</li>
+						<li class="socials__item">
+							<a href="#" class="social__link social__link--twitter"></a>
+						</li>
+						<li class="socials__item">
+							<a href="#" class="social__link social__link--email"></a>
+						</li>
+					</ul>
+				</div>
       </aside>
       
       <div class="maincontent">
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="index.html" class="nav__link nav__link--main">главная</a>
+              <a href="main.html" class="nav__link nav__link--main">главная</a>
             </li>
             <li class="nav__item">
               <a href="comments.html" class="nav__link nav__link--feed">отзывы</a>
@@ -57,7 +87,7 @@
           <div class="content__main-title">
             <h1 class="main-title">Отзывы</h1>
           </div>
-          <ul class="content__items">
+          <ul class="content__items content__items--row">
             <li class="content__item">
               <div class="content__pic">
                 <img src="./images/feed1.jpg" alt="" class="content__image">
@@ -135,60 +165,62 @@
             </div>
             
             
-            <section class="feedback container">
-              <form class="feedback__form">
-                <h1 class="main-title">Оставить отзыв</h1>
-                <div class="feedback__row">
-                  <label class="feedback__text-input">
-                    <div class="feedback__title">
-                      Ваше имя
-                    </div>
-                    <input class="feedback__input" type="text" name="name" placeholder="Андрей">
-                  </label>
-                  <label class="feedback__text-input">
-                    <div class="feedback__title">
-                      Ссылка на профиль VK
-                    </div>
-                    <input class="feedback__input" type="text" name="name" placeholder="vk.com/example">
-                  </label>
-                </div>
-                <div class="feedback__row">
-                  <label class="feedback__message">
-                    <div class="feedback__title">Текст отзыва</div>
-                    <textarea class="feedback__textarea" placeholder="Мне понравилось"></textarea>
-                  </label>
-                </div>
-                <div class="feedback__row">
-                  <div class="feedback__left">
-                    <div class="feedback__title">
-                      Отображать фото в отзыве?
-                    </div>
-                    <div class="feedback__radio-buttons">
-                      <label class="feedback__radio">
-                        <input type="radio" name="radio" class="feedback__radio-button">
-                        <div class="feedback__radio-fake"></div>
-                        <div class="feedback__title feedback__title--margin">Да</div>
-                      </label>
-                      <label class="feedback__radio">
-                        <input type="radio" name="radio" class="feedback__radio-button">
-                        <div class="feedback__radio-fake"></div>
-                        <div class="feedback__title feedback__title--margin">Нет</div>
-                      </label>
-                    </div>
-                  </div>
-                  <div class="feedback__right">
-                    <input type="submit" class="feedback__submit" value="ОТПРАВИТЬ">
-                  </div>
-                </div>
-                
-              </form>
-              
-            </section>
+           
           </div>	
-          
+
+         
+
         </div>
         
-        
+        <section class="feedback container">
+          <form class="feedback__form">
+            <h1 class="main-title">Оставить отзыв</h1>
+            <div class="feedback__row">
+              <label class="feedback__text-input">
+                <div class="feedback__title">
+                  Ваше имя
+                </div>
+                <input class="feedback__input" type="text" name="name" placeholder="Андрей">
+              </label>
+              <label class="feedback__text-input">
+                <div class="feedback__title">
+                  Ссылка на профиль VK
+                </div>
+                <input class="feedback__input" type="text" name="name" placeholder="vk.com/example">
+              </label>
+            </div>
+            <div class="feedback__row">
+              <label class="feedback__message">
+                <div class="feedback__title">Текст отзыва</div>
+                <textarea class="feedback__textarea" placeholder="Мне понравилось"></textarea>
+              </label>
+            </div>
+            <div class="feedback__row">
+              <div class="feedback__left">
+                <div class="feedback__title">
+                  Отображать фото в отзыве?
+                </div>
+                <div class="feedback__radio-buttons">
+                  <label class="feedback__radio">
+                    <input type="radio" name="radio" class="feedback__radio-button">
+                    <div class="feedback__radio-fake"></div>
+                    <div class="feedback__title feedback__title--margin">Да</div>
+                  </label>
+                  <label class="feedback__radio">
+                    <input type="radio" name="radio" class="feedback__radio-button">
+                    <div class="feedback__radio-fake"></div>
+                    <div class="feedback__title feedback__title--margin">Нет</div>
+                  </label>
+                </div>
+              </div>
+              <div class="feedback__right">
+                <input type="submit" class="feedback__submit" value="ОТПРАВИТЬ">
+              </div>
+            </div>
+            
+          </form>
+          
+        </section>
         
         <footer class="footer">
           <div class="container footer__container">

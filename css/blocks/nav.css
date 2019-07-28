@@ -58,20 +58,8 @@
 }
 
 
-/* .nav__link--main:after {
-  background-image: url(/images/main_icon.png);
-}
-.nav__link--feed:after {
-  background-image: url(/images/feed_icon.png);
-}
-.nav__link--about:after {
-  background-image: url(/images/team_icon.png);
-} */
-
-
-
 .nav__item:hover .nav__link--main:before {
-  background-image: url(/images/main_icon_hover.png);
+  background-image: url(/images/main_icon_black.png);
 }
 .nav__item:hover .nav__link--feed:before {
   background-image: url(/images/feed_icon_hover.png);

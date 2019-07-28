@@ -20,6 +20,21 @@
   align-items: center;
   flex:1;
 }
+
+.content__items--row {
+  flex-direction: column;
+}
+
+.content__items--row .content__item {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.content__items--row .content__pic {
+  width: 20%;
+  margin-right: 23px;
+}
+
 .content__item:last-child {
   border-bottom: 0;
   margin-bottom: 0;

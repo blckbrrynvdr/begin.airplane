@@ -1,5 +1,5 @@
 .promo {
-  background: url(../../images/promo.jpg) center center no-repeat #4bb56b;
+  background: url(../../images/promo2.png) center center / cover no-repeat;
   font-size: 18px;
   font-weight: 300;
   color: #fff;
@@ -11,9 +11,9 @@
 }
 
 .promo__content {
-  padding: 45px 0;
-  width: 60%;
+  padding: 30px 15px;
   line-height: 1.67;
+  text-align: center;
 }
 
 .promo__link {
